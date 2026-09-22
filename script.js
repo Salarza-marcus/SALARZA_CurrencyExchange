@@ -38,7 +38,7 @@ async function convertCurrency() {
         result.innerHTML = `
             ${amount} ${from} = ${convertedAmount.toFixed(2)} ${to}
             <br>
-            <small>Exchange rate: 1 ${from} = ${data.rate} ${to}</small>
+            <small> 1 ${from} = ${data.rate} ${to}</small>
         `;
 
     } catch (error) {
